@@ -1,0 +1,170 @@
+.contactTable {
+    position: absolute;
+    width: 1248px;
+    height: 80%;
+    margin: 0;
+    padding: 20px;
+    left: 232px;
+    top: 81px;
+    background-color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    left: 1000px;
+}
+
+.bttons-left {
+    display: flex;
+    flex-direction: row;
+    left: 1000px;
+}
+
+.date > input {
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.bttons-right {
+    display: flex;
+    flex-direction: row;
+    left: 1000px;
+}
+
+.bttons-left > button{
+    background-color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.bttons-right >button {
+    background-color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.table {
+    font-family: 'Titillium Web';
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse; 
+    border-radius: 20px;
+}
+
+thead {
+    background: #B3DFFF;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+thead th:nth-child(1) {
+    padding: 0;
+    width: 12%;
+}
+
+thead th:nth-child(2) {
+
+    width: 12%;
+}
+
+thead th:nth-child(3) {
+    width: 12%;
+}
+
+thead th:nth-child(4) {
+    width: 12%;
+}
+
+thead th:nth-child(5) {
+    width: 25%;
+}
+
+thead th:nth-child(6) {
+    width: 12%;
+}
+
+thead th:nth-child(7) {
+    width: 12%;
+}
+
+thead th:nth-child(8) {
+    width: 10%;
+    padding-right: 20px;
+}
+
+tbody th:nth-child(8) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+tr {
+    margin: 10px;
+    height: 57px;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+    font-weight: bolder;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(178, 223, 255, 0.31);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.actionbtn > button {
+    border: none;
+    outline: none;
+}
+
+.actionbtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.pen {
+    font-size: 18px;
+    color: #0884FF;
+    cursor: pointer;
+}
+
+
+.del {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+

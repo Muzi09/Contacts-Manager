@@ -1,0 +1,39 @@
+.ok{
+    margin: 10px 0 0 0;
+    width: 124px;
+    height: 34px;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.ok:hover {
+    margin: 10px 0 0 0;
+    width: 124px;
+    height: 34px;
+    outline: none;
+    border: none;
+    background-color: #2DA5FC;
+    border-radius: 5px;
+    color: white;
+}
+
+.cancel { 
+    margin: 20px 0 0 0;
+    width: 124px;
+    height: 34px;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.cancel:hover {
+    margin: 20px 0 0 0;
+    width: 124px;
+    height: 34px;
+    outline: none;
+    border: none;
+    background-color: #2DA5FC;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,96 @@
+.nav {
+    position: absolute;
+    width: 1250px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    left: 232px;
+    top: 0px;
+    color: black;
+    background: #FFFFFF;
+}
+
+.totalcontact {
+    position: absolute;
+    width: 194px;
+    height: 49px;
+    left: 25px;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: black;
+
+    opacity: 0.8;
+}
+
+.line {
+
+    position: absolute;
+    width: 1285px;
+    height: 0px;
+    left: 231px;
+    top: 80px;
+
+    border: 2px solid #EAEAEA;
+}
+
+
+.search {
+    position: absolute;
+    margin: 0;
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    left: 450px;
+    top: 17px;
+    background: #F2F2F2;
+    border-radius: 6px;
+}
+
+.userImage {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1060px;
+    top: 17px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+.userinfo {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    left: 1120px;
+    top: 14px;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.userstatus {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
